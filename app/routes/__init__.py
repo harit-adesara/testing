@@ -9,3 +9,5 @@ def register_routes(app):
     app.register_blueprint(auth_bp, url_prefix="/api/auth")
     app.register_blueprint(user_bp, url_prefix="/api/users")
     app.register_blueprint(task_bp, url_prefix="/api/tasks")
+
+print("test")
